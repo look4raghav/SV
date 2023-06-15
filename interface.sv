@@ -10,7 +10,7 @@ endmodule
 
 
 
-module dut(intf_dut_if);
+module dut(intf dut_if);
   always@(posedge dut_if.clock)
     if(dut_if.read)
       $display("Read asserted");
