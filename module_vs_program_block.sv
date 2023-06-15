@@ -19,4 +19,4 @@ program test();
     begin
   forever@(posedge design.clk)
     $display("Output :q = %b/n", design.q);
-endmodule
+      endprogram
